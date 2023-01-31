@@ -16,8 +16,9 @@ conda activate c3
 conda install ipykernel
 ipython kernel install --user --name=c3
 pip3 install -r requirements.txt
+conda install -c conda-forge ipympl
 ```
 5. Open jupyterlab
 ```
-jupyterlab
+jupyter-lab
 ```
